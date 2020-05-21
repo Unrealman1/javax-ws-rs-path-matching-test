@@ -1,2 +1,4 @@
 # Project exclude paths
 /target/
+/.idea/
+/no-mvc-jsr-371-controller.iml
