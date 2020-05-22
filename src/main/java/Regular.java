@@ -38,4 +38,12 @@ public class Regular {
     public String test5(@DefaultValue("null") @PathParam(value = "numberOfItems") Integer numberOfItems) {
         return "id: " + numberOfItems;
     }
+
+
+    //this crutch matches but id have to be String instead of Long
+    @GET
+    @Path("/asd{id:(/[0-9]+?)?}")
+    public String asd(@PathParam("id") String id){
+        return id;
+    }
 }
