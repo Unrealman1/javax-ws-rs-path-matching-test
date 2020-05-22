@@ -1,0 +1,1 @@
+Test of @Path matching using regexp @PathParam
